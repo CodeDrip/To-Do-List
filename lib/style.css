@@ -1,10 +1,14 @@
 body {
     background: #443737;
+    display: flex;
+    justify-content: center;
 }
 .container {
     display: flex;
-    justify-content: center;
-   
+    flex-direction: column;
+    margin: 15px;
+    /* padding: 15px; */
+
 }
 .entryBox {
     background: #272121;
@@ -15,6 +19,8 @@ body {
     color: #fb9300;
     width: 80vw;
     border-radius: 15px;
+    margin: 15px;
+
 }
 form {
     padding: 10px;
@@ -42,4 +48,25 @@ input, textarea, select {
 h1 {
     align-self: center;
     color: #f54748;
+}
+.noteList {
+    display: flex;
+    /* background: #272121;
+    color: #fb9300; */
+    width: 82vw;
+    border-radius: 15px;
+    margin: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.oneNote {
+    background: #272121;
+    color: #fb9300;
+    width: 38vw;
+    margin: 5px;
+    border-radius: 15px;
+
 }
