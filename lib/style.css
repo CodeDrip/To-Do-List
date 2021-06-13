@@ -65,8 +65,9 @@ h1 {
 .oneNote {
     background: #272121;
     color: #fb9300;
-    width: 38vw;
+    width: 37vw;
     margin: 5px;
+    padding-left: 10px;
     border-radius: 15px;
 
 }
