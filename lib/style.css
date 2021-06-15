@@ -22,6 +22,11 @@ body {
     margin: 15px;
 
 }
+#note0 {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
 form {
     padding: 10px;
     display: flex;
